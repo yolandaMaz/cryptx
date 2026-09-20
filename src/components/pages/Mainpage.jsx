@@ -103,6 +103,151 @@ function Mainpage() {
                     </svg>
                 </div>
             </div>
+
+            <div className="px-8 pb-8 grid grid-cols-3 gap-6">
+                <div className="col-span-2">
+                    <h2 className="text-lg font-semibold mb-4">Live Market</h2>
+            <div className="flex items-center justify-between py-4">
+                <div className="flex items-center gap-3 w-48">
+                    <div className="w-10 h-10 rounded-full border border-gray-200 flex-center justify-center text-indigo-600 font-bold">E</div>
+                    <div>
+                        <p className="font-medium">Ethereum</p>
+                        <p className="text-xs text-gray-400">ETH / USDT</p>
+                    </div>
+                </div>
+                <div className="w-24">
+                    <p className="text-xs text-gray-400">Change</p>
+                    <p className="text-sm text-green-500">+14.02%</p>
+                </div>
+                <div className="w-28">
+                    <p className="text-xs text-gray-400">Price</p>
+                    <p className="text-sm font-semibold">39,786 USD</p>
+                </div>
+                <svg viewbox="0 0 125 40" className="w-32 h-10">
+                    <path d="M0.30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none"  stroke="#5b4fd6" strokeWidth="2" />
+                </svg>
+            </div>
+            <div className="flex items-center justify-between py-4">
+                <div className="flex items-center gap-3 w-48">
+                    <div className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-yellow-500 font-bold">B</div>
+                    <div>
+                        <p className="font-medium">Bitcoin</p>
+                        <p className="text-xs text-gray-400">ETH / USDT</p>
+                    </div>
+                </div>
+                <div className="w-24">
+                    <p className="text-xs text-gray-400">Change</p>
+                    <p className="text-sm text-orange-500">+4.02%</p>
+                </div>
+                <div className="w-28">
+                    <p className="text-xs text-gray-400">Price</p>
+                    <p className="text-sm font-semibold">21,786 USD</p>
+                </div>
+                <svg viewBox="0 0 125 40" className="w-32 h-10">
+                    <path d="M0,30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none" stroke="#3b4fd6" strokeWidth="2" />
+                </svg>
+            </div>
+            <div className="flex items-center justify-between py-4">
+                <div className="flex items-center gap-3 w-48">
+                    <div className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-blue-600 font-bold">A</div>
+                    <div>
+                        <p className="font-medium">Litecoin</p>
+                        <p className="text-xs text-gray-400">ITC / USDT</p>
+                    </div>
+                </div>
+                <div className="w-24">
+                    <p className="text-xs text-gray-400">Change</p>
+                    <p className="text-sm text-green-500">-4.02%</p>
+                </div>
+                <div className="w-28">
+                    <p className="text-xs text-gray-400">Price</p>
+                    <p className="text-sm font-semibold">9,786 USD</p>
+                </div>
+                <svg viewBox="0 0 125 40" className="w-32 h-10">
+                    <path d="M0,30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none" stroke="#3b4fd6" strokeWidth="2" />
+                </svg>
+            </div>
+            <div className="flex items-center justify-between py-4">
+                <div className="flex items-center gap-3 w-48">
+                    <div className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-green-500 font-bold">A</div>
+                    <div>
+                        <p className="font-medium">Cordano</p>
+                        <p className="text-xs text-gray-400">ADA / USDT</p>
+                    </div>
+                </div>
+                <div className="w-24">
+                    <p className="text-xs text-gray-400">Change</p>
+                    <p className="text-sm text-green-500">+0.02%</p>
+                </div>
+                <div className="w-28">
+                    <p className="text-xs text-gray-400">Price</p>
+                    <p className="text-sm font-semibold">4,786 USD</p>
+                </div>
+                <svg viewBox="0 0 125 40" className="w-32 h-10">
+                    <path d="M0,30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none" stroke="#4ec26a" strokeWidth="2" />
+                </svg>
+            </div>
+                </div>
+
+                <div className="col-span-1">
+                    <h2 className="text-lg font-semibold mb-4">Transactions</h2>
+
+                    <div className="flex items-center justify-between py-4">
+                        <div className="flex items-center gap-3">
+                            <div className="w-9 h-9 rounded-full border border-gray-200 flex items-center justify-center text-green-500">^</div>
+                            <div>
+                                <p className="font-medium">Ethereum</p>
+                                <p className="text-xs text-gray-400">Received</p>
+                            </div>
+                        </div>
+                        <div className="text-right">
+                            <p className="font-semibold">$24,102</p>
+                            <p className="text-xs text-gray-400">Today, 19:30</p>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center justify-between py-4">
+                        <div className="flex items-center gap-3">
+                            <div className="w-9 h-9 rounded-full border border-gray-200 flex items-center justify-center text-orange-500">^</div>
+                            <div>
+                                <p className="font-medium">Bitcoin</p>
+                                <p className="text-xs text-gray-400">Buy</p>
+                            </div>
+                        </div>
+                        <div className="text-right">
+                            <p className="font-semibold">$4,157</p>
+                            <p className="text-xs text-gray-400">Today, 14:32</p>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center justify-between py-4">
+                        <div className="flex items-center gap-3">
+                            <div className="w-9 h-9 rounded-full border border-gray-200 flex items-center justify-center text-orange-500">^</div>
+                            <div>
+                                <p className="font-medium">Bitcoin</p>
+                                <p className="text-xs text-gray-400">Buy</p>
+                            </div>
+                        </div>
+                        <div className="text-right">
+                            <p className="font-semibold">$64,784</p>
+                            <p className="text-xs text-gray-400">Today, 13:50</p>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-between py-4">
+                        <div className="flex items-center gap-3">
+                            <div className="w-9 h-9 rounded-full border border-gray-200 flex items-center justify-center text-orange-500">^</div>
+                            <div>
+                                <p className="font-medium">Litecoin</p>
+                                <p className="text-xs text-gray-400">Buy</p>
+                            </div>
+                        </div>
+                        <div className="text-right">
+                            <p className="font-semibold">$14,265</p>
+                            <p className="text-xs text-gray-400">Today, 09:38</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     );
