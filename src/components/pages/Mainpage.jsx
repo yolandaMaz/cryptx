@@ -123,8 +123,9 @@ function Mainpage() {
                     <p className="text-xs text-gray-400">Price</p>
                     <p className="text-sm font-semibold">39,786 USD</p>
                 </div>
-                <svg viewbox="0 0 125 40" className="w-32 h-10">
-                    <path d="M0.30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none"  stroke="#5b4fd6" strokeWidth="2" />
+
+                <svg viewBox="0 0 125 40" className="w-32 h-10">
+                    <path d="M0,30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none"  stroke="#5b4fd6" strokeWidth="2" />
                 </svg>
             </div>
             <div className="flex items-center justify-between py-4">
@@ -144,7 +145,7 @@ function Mainpage() {
                     <p className="text-sm font-semibold">21,786 USD</p>
                 </div>
                 <svg viewBox="0 0 125 40" className="w-32 h-10">
-                    <path d="M0,30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none" stroke="#3b4fd6" strokeWidth="2" />
+                    <path d="M0,30 C10,10 20,35 30,25 C40,15 50,35 60,25 C70,15 80,30 90,20 C100,10 110,25 125,15" fill="none" stroke="#f5b93a" strokeWidth="2" />
                 </svg>
             </div>
             <div className="flex items-center justify-between py-4">
